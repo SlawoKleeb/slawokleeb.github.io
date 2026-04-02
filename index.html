@@ -2,210 +2,201 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Slawo Kleeb | ITSM Architect & Automation Specialist</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      color: #1A1A1A;
-      background: #FFFFFF;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    h1, h2, h3 {
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #0A2540;
-    }
-
-    h2 {
-      color: #0A2540;
-      margin-top: 60px;
-    }
-
-    p {
-      max-width: 700px;
-    }
-
-    .hero {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-
-    .tagline {
-      font-size: 1.2rem;
-      color: #555;
-    }
-
-    .buttons {
-      margin-top: 20px;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-right: 10px;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: 500;
-    }
-
-    .btn-primary {
-      background: #0A2540;
-      color: white;
-    }
-
-    .btn-secondary {
-      border: 1px solid #0A2540;
-      color: #0A2540;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
-
-    .card {
-      padding: 20px;
-      border: 1px solid #eee;
-      border-radius: 10px;
-      transition: 0.2s;
-    }
-
-    .card:hover {
-      border-color: #2CB1BC;
-    }
-
-    .footer {
-      margin-top: 80px;
-      font-size: 0.9rem;
-      color: #777;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2rem;
-      }
-    }
-  </style>
+  <meta
+    name="description"
+    content="Slawo Kleeb helps organizations improve operational decision-making through automation, integration, and data architecture."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-
-  <div class="container">
-
-    <!-- HERO -->
-    <section class="hero">
-      <h1>Slawo Kleeb</h1>
-      <h3>ITSM Architect & Automation Specialist</h3>
-
-      <p class="tagline">
-        Designing automation and data architectures for reliable operational decision-making.
-      </p>
-
-      <div class="buttons">
-        <a href="#services" class="btn btn-primary">View Services</a>
-        <a href="#projects" class="btn btn-secondary">View Projects</a>
-      </div>
-    </section>
-
-    <!-- CAPABILITIES -->
-    <section id="services">
-      <h2>Core Capabilities</h2>
-
-      <div class="grid">
-        <div class="card">
-          <h3>Data Integration</h3>
-          <p>API-based data extraction, system integration, and structured data pipelines.</p>
-        </div>
-
-        <div class="card">
-          <h3>Automation</h3>
-          <p>Workflow automation, scheduled jobs, and operational efficiency improvements.</p>
-        </div>
-
-        <div class="card">
-          <h3>Data Analytics</h3>
-          <p>Operational analytics, KPI development, and actionable reporting.</p>
-        </div>
-
-        <div class="card">
-          <h3>Architecture</h3>
-          <p>Design of scalable data flows and integration frameworks for enterprise systems.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects">
-      <h2>Selected Work</h2>
-
-      <div class="grid">
-
-        <div class="card">
-          <h3>Automated Reporting Pipeline</h3>
-          <p>
-            Designed a data pipeline extracting ITSM data via APIs, processing it, and generating automated reports.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>API Integration Framework</h3>
-          <p>
-            Built reusable integration logic for consistent system-to-system communication and data normalization.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Operational Data Analysis</h3>
-          <p>
-            Developed KPI-driven insights to improve incident management and service performance.
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- FOCUS -->
-    <section>
-      <h2>Professional Focus</h2>
-      <p>
-        Focused on bridging the gap between operational systems, data, and automation.
-        Combining architecture thinking with hands-on implementation to deliver scalable and reliable solutions.
-      </p>
-    </section>
-
-    <!-- CONTACT -->
-    <section>
-      <h2>Contact</h2>
-      <p>
-        GitHub: <a href="https://github.com/SlawoKleeb" target="_blank">github.com/SlawoKleeb</a><br>
-        Email: slawomir.kleeb@gmail.com
-      </p>
-    </section>
-
-    <div class="footer">
-      © 2026 Slawo Kleeb
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Slawo Kleeb</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="capabilities.html">Capabilities</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="architecture.html">Architecture</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
-  </div>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">ITSM Architecture · Automation · Operational Analytics</div>
+          <h1>Designing automation and data architectures for reliable operational decision-making.</h1>
+          <p class="hero-subtitle">
+            I help organizations structure operational data flows, automate repetitive processes,
+            and build integration patterns that improve reliability, transparency, and efficiency.
+          </p>
+          <div class="button-row">
+            <a class="btn btn-primary" href="capabilities.html">View Capabilities</a>
+            <a class="btn btn-secondary" href="case-studies.html">View Case Studies</a>
+          </div>
+        </div>
 
+        <aside class="hero-card">
+          <h3>Core Focus</h3>
+          <ul>
+            <li>API-based integration and data pipeline design</li>
+            <li>Operational analytics for ITSM and service environments</li>
+            <li>Automation frameworks that reduce manual effort</li>
+            <li>Architecture thinking with hands-on implementation</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Capabilities Overview</h2>
+          <p>
+            The website is structured to support proposals and consulting discussions:
+            clear capabilities, practical evidence, and architectural perspective.
+          </p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card">
+            <h3>Automation & Integration</h3>
+            <p>
+              Design and implementation of API-driven integrations and automated workflows
+              that improve consistency and reduce manual processing.
+            </p>
+            <div class="meta"><a href="capabilities.html">Explore capability →</a></div>
+          </article>
+
+          <article class="card">
+            <h3>Operational Data Analytics</h3>
+            <p>
+              Structuring and analyzing operational data to support KPI reporting,
+              service insights, and data-driven decision-making.
+            </p>
+            <div class="meta"><a href="capabilities.html">Explore capability →</a></div>
+          </article>
+
+          <article class="card">
+            <h3>Case-Based Delivery</h3>
+            <p>
+              Practical project examples built around problem, solution, technology,
+              and measurable operational outcomes.
+            </p>
+            <div class="meta"><a href="case-studies.html">View examples →</a></div>
+          </article>
+
+          <article class="card">
+            <h3>Architecture Perspective</h3>
+            <p>
+              System-level thinking focused on data flow design, interface strategy,
+              and automation readiness across operational platforms.
+            </p>
+            <div class="meta"><a href="architecture.html">See architecture focus →</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Selected Case Study Highlights</h2>
+          <p>
+            A proposal site needs proof, not just claims. These examples preview the kinds of
+            engagements and outcomes this profile is built around.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Automated Reporting Pipeline</h3>
+            <p>
+              Replaced repetitive manual reporting with an API-based process for extracting,
+              preparing, and delivering operational data in a structured format.
+            </p>
+            <div class="meta">Outcome: reduced manual reporting effort</div>
+          </article>
+
+          <article class="card">
+            <h3>Integration Framework Design</h3>
+            <p>
+              Established reusable integration logic for consistent system-to-system communication,
+              cleaner data exchange, and more maintainable interface handling.
+            </p>
+            <div class="meta">Outcome: improved integration consistency</div>
+          </article>
+
+          <article class="card">
+            <h3>Operational KPI Analysis</h3>
+            <p>
+              Structured incident and service data into decision-ready analytics to support trend
+              visibility, reporting quality, and operational review processes.
+            </p>
+            <div class="meta">Outcome: clearer performance transparency</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <div class="section-header">
+            <h2>Professional Positioning</h2>
+            <p>
+              This profile sits between technical implementation and architectural design.
+              The focus is not just on building scripts or dashboards, but on creating reliable
+              operational structures that support better decisions.
+            </p>
+          </div>
+        </div>
+
+        <div class="focus-box">
+          <strong>Positioning statement</strong>
+          <p>
+            Bridging operational systems, data, and automation with a consulting-oriented,
+            architecture-aware approach that is suitable for proposals, pitches, and project discussions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Next Step</h2>
+          <p>
+            Use this site as a structured capability profile in proposals and client conversations.
+            The detailed pages expand each area with practical depth.
+          </p>
+        </div>
+        <div class="button-row">
+          <a class="btn btn-primary" href="case-studies.html">Go to Case Studies</a>
+          <a class="btn btn-secondary" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>© 2026 Slawo Kleeb</div>
+      <div>
+        <a href="https://github.com/SlawoKleeb" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
